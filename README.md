@@ -1,4 +1,12 @@
 # 🛡️ ZoneGuard AI: Industrial Safety & Modbus TCP System
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![YOLOv8](https://img.shields.io/badge/YOLOv8-Vision-E21937)](https://github.com/ultralytics/ultralytics)
+[![Modbus TCP](https://img.shields.io/badge/Modbus_TCP-Protocol-F28500)](https://pymodbustcp.readthedocs.io/)
+[![Gradio](https://img.shields.io/badge/Gradio-Web_UI-FF7C00)](https://gradio.app)
+[![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+[![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-Inference-005CED?logo=onnx&logoColor=white)](https://onnxruntime.ai)
+[![Roboflow](https://img.shields.io/badge/Roboflow-Custom_Dataset-6400FF)](ضع_رابط_حسابك_في_Roboflow_هنا)
+
 
 ## 📌 Project Overview
 **ZoneGuard AI** is a comprehensive, production-ready Computer Vision system engineered specifically for industrial and manufacturing safety. The system continuously analyzes real-time CCTV feeds to detect workers and ensure strict adherence to PPE (Personal Protective Equipment) protocols, specifically tracking hardhats and safety vests.
@@ -7,7 +15,6 @@ Beyond standard detection, the system bridges software and industrial hardware. 
 
 ---
 
-## 📊 Dataset & AI Training
 ## 📊 Dataset & AI Training
 The high accuracy of this system is driven by a highly specialized, custom dataset. We meticulously collected, merged, and modified data from various diverse sources to suit the project's needs. By curating, filtering, and re-annotating these datasets to reflect actual factory lighting, angles, and conditions, the resulting YOLOv8 model achieves robust performance in real-world industrial environments.
 
