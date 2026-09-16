@@ -65,6 +65,17 @@ ZoneGuard_Project/
 
 ---
 
+## ⚡ Performance & Known Limitations
+* **Processing Latency:** When processing high-resolution video files via the Gradio UI, a slight delay may be observed. This is an expected behavior caused by sequential frame-by-frame processing and Gradio's web-socket communication overhead. In this current iteration, inference is optimized for standard hardware without advanced hardware-specific compilation (e.g., TensorRT).
+
+## 🔮 Future Enhancements & Scalability
+While the current architecture robustly handles video files and simulated PLC signals, it is designed as a foundation for scalable enterprise deployment:
+* **Multi-Camera RTSP Streams:** Upgrading the pipeline using Python `multithreading` and NVIDIA DeepStream to ingest and process live IP camera feeds from across the factory simultaneously.
+* **Hardware Acceleration:** Compiling the ONNX weights into **TensorRT** engines to achieve ultra-low latency inference, essential for mission-critical machine shutdowns.
+* **Live Recording & Alerting:** Integrating direct live-camera hooks to automatically record and save short video clips of safety breaches, alongside sending automated Email/SMS notifications.
+
+
+
 ## 🚀 How to Run (Local Environment)
 
 ### 1. Clone the repository
