@@ -13,6 +13,8 @@
 
 Beyond standard detection, the system bridges software and industrial hardware. It monitors mathematically defined "restricted machine zones" using perspective-aware spatial logic. Upon detecting a safety breach, it instantly transmits **Modbus TCP** signals to connected PLCs (Programmable Logic Controllers) to trigger alarms or halt machinery.
 
+
+<img width="1904" height="942" alt="Screenshot 2026-09-16 230604" src="https://github.com/user-attachments/assets/030cadd3-6784-452c-bb02-1c4c617648f9" />
 ---
 
 ## 📊 Dataset & AI Training
@@ -21,6 +23,7 @@ The high accuracy of this system is driven by a highly specialized, custom datas
 * **Dataset Link:** You can access the official dataset on Roboflow via [ZoneGuard Production Data](https://universe.roboflow.com/mohamed-arif/zoneguard_production_data).
 
 ---
+
 
 ## ⚙️ Core Features
 *   **Custom AI Inference:** Optimized ONNX runtime (achieving 95% mAP50) for fast, accurate detection of Hardhats, Vests, and Workers.
@@ -107,3 +110,9 @@ docker build -t zoneguard-ai .
 ```bash
 docker run -p 7860:7860 zoneguard-ai
 ```
+
+
+
+## 👨‍💻 Author
+**Mohammed Arif Mahyoub Haider**
+*Electrical Engineer - Computer and Industrial Control*
