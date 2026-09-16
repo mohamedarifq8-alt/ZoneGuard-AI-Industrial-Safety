@@ -112,6 +112,13 @@ docker run -p 7860:7860 zoneguard-ai
 ```
 
 
+## 🔗 Resources
+
+### Model Weights (.onnx): [https://drive.google.com/file/d/143GWa60ptO086fEblpKrGwMheP-s6TEy/view?usp=sharing]
+
+### Real-time Demo Video: [ضع_رابط_درايف_هنا]
+
+
 
 ## 👨‍💻 Author
 **Mohammed Arif Mahyoub Haider**
