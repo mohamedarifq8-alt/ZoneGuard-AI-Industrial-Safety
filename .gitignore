@@ -1,0 +1,14 @@
+# Virtual Environment
+venv/
+__pycache__/
+
+# Large Media Files
+videos/
+output_demo.mp4
+
+# Model Weights
+models/
+*.onnx
+
+# System Files
+.DS_Store
